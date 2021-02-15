@@ -73,8 +73,7 @@ window.addEventListener('DOMContentLoaded', async function(event) {
           movieTitle: movieTitle, 
           imageUrl: moviePoster, 
           created: firebase.firestore.FieldValue.serverTimestamp()
-        })
-        renderMovie(movieId, moviePoster, movieTitle)
+        })       
       }
     }) 
   }
